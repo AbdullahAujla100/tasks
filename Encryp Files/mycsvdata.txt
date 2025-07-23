@@ -1,0 +1,11 @@
+StudentID,Name,Subject,Marks,Grade
+101,Ali Khan,Math,88,A
+102,Sara Ahmed,English,76,B
+103,Omar Siddiqui,Physics,92,A
+104,Nida Sheikh,Chemistry,67,C
+105,Zain Raza,Biology,81,B
+106,Mahnoor Iqbal,Math,95,A
+107,Hassan Tariq,English,58,D
+108,Ayesha Zafar,Physics,73,B
+109,Usman Malik,Chemistry,49,F
+110,Laiba Aslam,Biology,85,A
