@@ -1,0 +1,1 @@
+<h>Have 6 lives to guess a random word<h>
