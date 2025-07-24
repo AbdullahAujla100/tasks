@@ -33,15 +33,19 @@ while True:
     if to_do == "exit":
         print("GOOD BYE!!")
         break
+
+    elif to_do == "encrypt":
+       
+        text = input("Enter your word : ").lower()
+        key = int(input("Enter your key : "))
+        encryption(text, key)
+        
+    elif to_do == "decrypt":
+        text = input("Enter your word : ").lower()
+        key = int(input("Enter your key : "))
+        decryption(text, key)
+
     elif to_do not in ["encrypt", "decrypt"]:
         print("Sorry can't understand, type again")
-        break
+        
 
-    text = input("Enter your word : ").lower()
-    key = int(input("Enter your key : "))
-
-    if to_do == "encrypt":
-        encryption(text, key)
-    elif to_do == "decrypt":
-        decryption(text, key)
-    
